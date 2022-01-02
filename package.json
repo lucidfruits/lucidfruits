@@ -1,5 +1,5 @@
 {
-  "homepage": "https://lucidfruits.github.io/lucidfruits",
+  "homepage": "https://lucidfruits.github.io/lucidfruits/",
   "name": "lucid-fruit",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "add-domain": "echo \"lucidfruitsnft.com\" > build/CNAME"
   },
   "eslintConfig": {
