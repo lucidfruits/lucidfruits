@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build",
+    "add-domain": "echo \"lucidfruitsnft.com\" > build/CNAME"
   },
   "eslintConfig": {
     "extends": [
